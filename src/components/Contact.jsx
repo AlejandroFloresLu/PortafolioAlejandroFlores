@@ -25,7 +25,7 @@ export default function Contact() {
           <motion.a 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="mailto:tu@email.com" 
+            href="mailto:alejandro.floreslu@outlook.com" 
             className="flex items-center gap-2 px-8 py-4 rounded-full bg-red-500 hover:bg-red-600 text-white font-bold shadow-lg shadow-red-500/25 transition-colors w-full sm:w-auto justify-center"
           >
             <Mail className="w-5 h-5" />
@@ -35,13 +35,13 @@ export default function Contact() {
           <motion.a 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="https://calendly.com/tu-usuario" 
+            href="tel:+593989390813" 
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-8 py-4 rounded-full bg-zinc-800 hover:bg-zinc-700 text-zinc-200 hover:text-white font-bold border border-zinc-700 hover:border-zinc-600 transition-colors w-full sm:w-auto justify-center"
           >
             <Calendar className="w-5 h-5" />
-            Agendar Reunión
+            Llamar: 0989390813
           </motion.a>
         </div>
       </motion.div>

@@ -1,23 +1,30 @@
 export const certificates = [
   {
     id: 1,
-    title: 'AWS Certified Developer - Associate',
-    issuer: 'Amazon Web Services',
-    date: 'Mayo 2025',
+    title: 'Gestión de Proyectos con Agile (Scrum y Kanban)',
+    issuer: 'HP LIFE, HP Foundation',
+    date: 'Mayo 2026',
     url: '#',
   },
   {
     id: 2,
-    title: 'Certificación Profesional en Desarrollo Frontend',
-    issuer: 'Meta',
-    date: 'Noviembre 2024',
+    title: 'Inteligencia Artificial Generativa',
+    issuer: 'Google Cloud',
+    date: 'Enero 2026',
     url: '#',
   },
   {
     id: 3,
-    title: 'Ingeniería en Sistemas Computacionales',
-    issuer: 'Universidad Tecnológica Nacional',
-    date: '2020 - 2025',
+    title: 'Microcredencial en Matemáticas para Ingeniería',
+    issuer: 'PUCE',
+    date: 'Julio 2025',
+    url: '#',
+  },
+  {
+    id: 4,
+    title: 'Ingeniería en Sistemas de Información',
+    issuer: 'PUCE (5to Semestre)',
+    date: '2026 - Presente',
     url: '#',
   }
 ];

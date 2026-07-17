@@ -14,11 +14,11 @@ export default function Hero() {
       {/* Text Content */}
       <div className="flex-1 space-y-6 text-center md:text-left print:text-left relative z-10">
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-white mb-4 print:text-zinc-900 print:text-5xl">
-          Hola, soy <span className="text-red-500">Alejandro</span>
+          Hola, soy <span className="text-red-500">Alejandro Sebastián</span>
         </h1>
         <h2 className="text-2xl sm:text-3xl text-zinc-200 font-bold mb-6 h-10 print:text-zinc-700">
           <Typewriter
-            words={['Ingeniero de Software', 'Desarrollador Full-Stack', 'Creador de Experiencias']}
+            words={['Estudiante de Ing. en Sistemas', 'Desarrollador de Software', 'Creador de Soluciones']}
             loop={0}
             cursor
             cursorStyle='_'
@@ -28,8 +28,7 @@ export default function Hero() {
           />
         </h2>
         <p className="text-zinc-400 max-w-xl mx-auto md:mx-0 text-lg mb-8 leading-relaxed print:text-zinc-600">
-          Construyendo aplicaciones web modernas, escalables y con interfaces de usuario excepcionales.
-          Apasionado por el código limpio, el diseño minimalista y la innovación constante.
+          Estudiante de Ingeniería en Sistemas de la Información en la PUCE, con sólida base en lógica de programación y gestión de bases de datos. Proactivo, con capacidad analítica y enfocado en el desarrollo de soluciones de software.
         </p>
 
         <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 mt-8 print:hidden">
@@ -50,7 +49,7 @@ export default function Hero() {
             <span>Ver Curriculum Base</span>
           </a>
           <a 
-            href="https://linkedin.com/in/usuario" 
+            href="#" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-all duration-300 hover:scale-105 active:scale-95"
