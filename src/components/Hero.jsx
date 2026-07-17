@@ -40,7 +40,8 @@ export default function Hero() {
             <span>Generar PDF</span>
           </button>
           <a 
-            href="/cv.pdf" 
+            href="/CV_Alejandro_FLores_2026.pdf" 
+            download="CV_Alejandro_FLores_2026.pdf"
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-all duration-300 hover:scale-105 active:scale-95"
@@ -49,7 +50,7 @@ export default function Hero() {
             <span>Ver Curriculum Base</span>
           </a>
           <a 
-            href="#" 
+            href="https://www.linkedin.com/in/alejandro-flores-19b6b63a4/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-full bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-all duration-300 hover:scale-105 active:scale-95"
@@ -91,10 +92,10 @@ export default function Hero() {
         </motion.div>
 
         {/* Image Container */}
-        <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-zinc-800 shadow-2xl print:border-zinc-200 print:shadow-none z-10">
+        <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-zinc-800 shadow-2xl print:border-zinc-200 print:shadow-none z-10 bg-zinc-900">
           <img 
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" 
-            alt="Alejandro" 
+            src="/foto_perfil.jpg" 
+            alt="Alejandro Flores" 
             className="w-full h-full object-cover"
           />
         </div>
