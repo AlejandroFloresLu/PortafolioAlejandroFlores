@@ -1,32 +1,41 @@
 export const skills = [
   {
-    category: "Frontend",
+    category: "Lenguajes de programación",
     items: [
-      { name: "React", icon: "⚛️" },
+      { name: "Java", icon: "☕" },
+      { name: "PHP", icon: "🐘" },
+      { name: "C#", icon: "🔷" },
+      { name: "Python", icon: "🐍" },
       { name: "JavaScript", icon: "💛" },
-      { name: "TypeScript", icon: "📘" },
-      { name: "Tailwind CSS", icon: "🎨" },
-      { name: "Next.js", icon: "▲" },
-      { name: "HTML5/CSS3", icon: "🌐" }
+      { name: "SQL", icon: "🗄️" }
     ]
   },
   {
-    category: "Backend & Base de Datos",
+    category: "Desarrollo web y frameworks",
     items: [
-      { name: "Node.js", icon: "🟢" },
-      { name: "Express", icon: "🚂" },
-      { name: "Python", icon: "🐍" },
+      { name: "HTML5", icon: "🌐" },
+      { name: "CSS3", icon: "🎨" },
+      { name: "React", icon: "⚛️" },
+      { name: "Vue.js", icon: "🟢" },
+      { name: "Node.js", icon: "🟩" }
+    ]
+  },
+  {
+    category: "Bases de datos y arquitectura",
+    items: [
+      { name: "MySQL", icon: "🐬" },
       { name: "PostgreSQL", icon: "🐘" },
-      { name: "MongoDB", icon: "🍃" }
+      { name: "SQL Server", icon: "💾" },
+      { name: "Supabase", icon: "⚡" }
     ]
   },
   {
     category: "Herramientas & Otros",
     items: [
       { name: "Git & GitHub", icon: "🐙" },
-      { name: "Docker", icon: "🐳" },
-      { name: "Figma", icon: "🎨" },
-      { name: "Metodologías Ágiles", icon: "🏃" }
+      { name: "Power Apps", icon: "📊" },
+      { name: "Playwright", icon: "🎭" },
+      { name: "BPMN", icon: "🔄" }
     ]
   }
 ];
@@ -41,13 +50,7 @@ export const languages = [
   {
     id: 2,
     name: "Inglés",
-    level: "C1 Avanzado",
-    percentage: 85
-  },
-  {
-    id: 3,
-    name: "Portugués",
-    level: "A2 Básico",
-    percentage: 30
+    level: "A2.2",
+    percentage: 40
   }
 ];
